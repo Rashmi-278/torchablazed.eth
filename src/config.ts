@@ -1,11 +1,13 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  website: "", // replace this with your deployed domain
+  author: "Torch Ablazed",
+  profile: "", // replace this with your profile picture url
+  email: "abalazedtorch@gmail.com",
+  twitter: "https://twitter.com/rashmivabbigeri",
+  desc: "Blogging about tech, life and everything in between",
+  title: "Torch Ablazed",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -13,7 +15,7 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+    url: "https://github.com/Rashmi-278/torchablazed.eth/tree/main/src/content/blog",
     text: "Suggest Changes",
     appendFilePath: true,
   },

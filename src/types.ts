@@ -4,6 +4,8 @@ export type Site = {
   website: string;
   author: string;
   profile: string;
+  email: string;
+  twitter: string;
   desc: string;
   title: string;
   ogImage?: string;
